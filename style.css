@@ -42,9 +42,18 @@ input, select {
     max-width: 1200px;
     padding: 10px;
     border-radius: 5px;
-    border: 2px solid transparent; 
+    border: 2px solid grey;
     background-color: #ffffff;
     margin-bottom: 3px;
+    outline: none;
+}
+
+input:user-valid, select:user-valid {
+    border-color: green;
+}
+
+input:user-invalid, select:user-invalid {
+    border-color: red;
 }
 
 .submit-btn {
