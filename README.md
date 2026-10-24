@@ -2,10 +2,6 @@
 
 A practice project for HTML form validation using the Constraint Validation API and custom error handling. This project demonstrates real-time validation with visual feedback and prevents form submission when validation fails.
 
-## Live Preview
-
-Open `index.html` directly in your browser to try the form, or serve the project locally with a simple static server.
-
 ## Features
 
 - Real-time validation as users type
@@ -39,7 +35,7 @@ Open `index.html` directly in your browser to try the form, or serve the project
   cd form-validation
   ```
 
-3. Open your browser and visit:
+3. Open `index.html` in your browser
 
 ## Validation Rules
 
