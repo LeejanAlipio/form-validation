@@ -25,15 +25,21 @@ Open `index.html` directly in your browser to try the form, or serve the project
 - Vanilla JavaScript
 - Constraint Validation API
 
-## Project Structure
+## Getting Started
 
-```text
-form-validation/
-├── index.html      # Sign-up form with required fields
-├── index.js        # Validation logic and event handlers
-├── style.css       # Form styling with validation feedback
-└── README.md       # Documentation
-```
+1. Clone the repository:
+
+  ```bash
+  git clone https://github.com/LeejanAlipio/form-validation.git
+  ```
+
+2. Open the project folder:
+
+  ```bash
+  cd form-validation
+  ```
+
+3. Open your browser and visit:
 
 ## Validation Rules
 
@@ -45,42 +51,7 @@ form-validation/
 | Password | Must be at least 8 characters | "Password must be at least 8 characters long." |
 | Confirm Password | Must match the password | "Passwords do not match." |
 
-## How It Works
-
-1. The form is initialized in `initValidation()`.
-2. Each input listens for `input` events and validates immediately.
-3. Each field has its own validation function for custom logic.
-4. On submit, all fields are rechecked before the form is allowed to submit.
-5. If validation fails, inline error messages appear and the form is prevented from submitting.
-
-## Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/LeejanAlipio/form-validation.git
-```
-
-2. Open the project folder:
-
-```bash
-cd form-validation
-```
-
-3. Start a local server (recommended):
-
-```bash
-python -m http.server 8000
-```
-
-4. Open your browser and visit:
-
-```text
-http://localhost:8000
-```
-
 ## Usage
-
 Try submitting the form with invalid values to see the validation errors:
 
 - Email must be valid
@@ -94,7 +65,3 @@ Try submitting the form with invalid values to see the validation errors:
 - This is a client-side validation practice project.
 - Real production apps should also validate on the server for security.
 - The app uses native browser validation features and custom JavaScript checks.
-
-## License
-
-This project is open source and available under the MIT License.
